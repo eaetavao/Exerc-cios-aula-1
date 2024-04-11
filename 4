@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int numero;
+    int mul = 1;
+   
+
+    printf("Digite um número entre 1 e 10: ");
+    scanf("%d", &numero);
+
+    printf("Tabuada do %d:\n", numero);
+    while (mul <= 10) {
+    printf("%d X %d  = %d\n", numero, mul ,numero * mul);
+    mul ++;
+}
+  
+
+    return 0;
+}
